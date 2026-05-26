@@ -5,7 +5,7 @@
     "data_evento": "28/05/2026",
     "periodo": "06/05/2026 a 26/05/2026",
     "dias_ativos": 21,
-    "atualizado_em": "26/05/2026 19:19"
+    "atualizado_em": "26/05/2026 19:38"
   },
   "kpis": {
     "investimento_total": 3659.58,
@@ -187,14 +187,14 @@
   ],
   "canais": [
     {
-      "canal": "Facebook",
-      "leads": 19,
-      "pct": 36.5
-    },
-    {
       "canal": "Instagram",
       "leads": 17,
       "pct": 32.7
+    },
+    {
+      "canal": "Facebook",
+      "leads": 19,
+      "pct": 36.5
     },
     {
       "canal": "Audience Network",
@@ -215,57 +215,67 @@
   "criativos": [
     {
       "nome": "AD07-Não-é-o-mercado",
+      "leads": 23,
       "spend": 1486.25,
-      "cpl": 28.58
+      "cpl": 64.62
     },
     {
       "nome": "AD00-Misto",
+      "leads": 10,
       "spend": 1168.29,
-      "cpl": 22.47
+      "cpl": 116.83
     },
     {
       "nome": "AD09-Procura-se",
+      "leads": 4,
       "spend": 322.35,
-      "cpl": 6.2
+      "cpl": 80.59
     },
     {
       "nome": "AD06-17.04.26-Lote-0-Anuncio-2",
+      "leads": 3,
       "spend": 222.13,
-      "cpl": 4.27
+      "cpl": 74.04
     },
     {
       "nome": "AD08-Se-você-parar",
+      "leads": 4,
       "spend": 189.82,
-      "cpl": 3.65
+      "cpl": 47.45
     },
     {
       "nome": "AD04-CACAU-LOTEZERO",
+      "leads": 2,
       "spend": 108.18,
-      "cpl": 2.08
+      "cpl": 54.09
     },
     {
       "nome": "AD03-EQUIPE-LOTEZERO",
+      "leads": 0,
       "spend": 45.93,
-      "cpl": 0.88
+      "cpl": 0
     },
     {
       "nome": "AD01-FEEDBACK-LOTEZERO",
+      "leads": 0,
       "spend": 43.89,
-      "cpl": 0.84
+      "cpl": 0
     },
     {
       "nome": "AD02-SELEÇÃO-LOTEZERO",
+      "leads": 0,
       "spend": 37.99,
-      "cpl": 0.73
+      "cpl": 0
     },
     {
       "nome": "AD05-17.04.26-Lote-0-Anuncio-1",
+      "leads": 1,
       "spend": 34.75,
-      "cpl": 0.67
+      "cpl": 34.75
     }
   ],
   "segmentacao": {
-    "genero": [],
-    "faixa_etaria": []
+    "cargo": [],
+    "faturamento": []
   }
 }
