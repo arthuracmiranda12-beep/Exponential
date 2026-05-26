@@ -4,21 +4,19 @@
     "cliente": "Ricardo Mello",
     "data_evento": "28/05/2026",
     "periodo": "06/05/2026 a 26/05/2026",
-    "atualizado_em": "26/05/2026 18:59"
+    "dias_ativos": 21,
+    "atualizado_em": "26/05/2026 19:19"
   },
   "kpis": {
-    "investimento_total": 3655.45,
-    "cpl_total": 70.3,
-    "leads_total": 52,
-    "leads_pagos": 49,
-    "leads_organico": 0,
-    "leads_sem_rastreio": 3
+    "investimento_total": 3659.58,
+    "cpl_total": 70.38,
+    "leads_total": 52
   },
   "audiencias": {
     "hot": {
       "leads": 36,
-      "spend": 3231.48,
-      "cpl": 89.76
+      "spend": 3235.61,
+      "cpl": 89.88
     },
     "cold": {
       "leads": 11,
@@ -27,7 +25,7 @@
     }
   },
   "funil": {
-    "impressoes": 15514,
+    "impressoes": 15532,
     "cliques": 649,
     "page_views": 434,
     "leads": 52,
@@ -123,130 +121,68 @@
   ],
   "cpl_por_dia": [
     {
-      "data": "06/05",
-      "spend": 52.64,
-      "leads": 0,
-      "cpl": null
-    },
-    {
       "data": "07/05",
-      "spend": 104.56,
-      "leads": 1,
       "cpl": 104.56
     },
     {
       "data": "08/05",
-      "spend": 144.3,
-      "leads": 4,
       "cpl": 36.08
     },
     {
       "data": "09/05",
-      "spend": 95.0,
-      "leads": 2,
       "cpl": 47.5
     },
     {
       "data": "10/05",
-      "spend": 209.94,
-      "leads": 4,
       "cpl": 52.48
     },
     {
       "data": "11/05",
-      "spend": 121.93,
-      "leads": 3,
       "cpl": 40.64
     },
     {
       "data": "12/05",
-      "spend": 204.44,
-      "leads": 2,
       "cpl": 102.22
     },
     {
       "data": "13/05",
-      "spend": 199.33,
-      "leads": 3,
       "cpl": 66.44
     },
     {
-      "data": "14/05",
-      "spend": 199.67,
-      "leads": 0,
-      "cpl": null
-    },
-    {
       "data": "15/05",
-      "spend": 145.92,
-      "leads": 1,
       "cpl": 145.92
     },
     {
-      "data": "16/05",
-      "spend": 68.95,
-      "leads": 0,
-      "cpl": null
-    },
-    {
       "data": "17/05",
-      "spend": 221.04,
-      "leads": 4,
       "cpl": 55.26
     },
     {
-      "data": "18/05",
-      "spend": 201.27,
-      "leads": 0,
-      "cpl": null
-    },
-    {
       "data": "19/05",
-      "spend": 267.61,
-      "leads": 2,
       "cpl": 133.81
     },
     {
       "data": "20/05",
-      "spend": 186.03,
-      "leads": 3,
       "cpl": 62.01
     },
     {
       "data": "21/05",
-      "spend": 249.09,
-      "leads": 4,
       "cpl": 62.27
     },
     {
       "data": "22/05",
-      "spend": 256.01,
-      "leads": 1,
       "cpl": 256.01
     },
     {
-      "data": "23/05",
-      "spend": 89.8,
-      "leads": 0,
-      "cpl": null
-    },
-    {
       "data": "24/05",
-      "spend": 273.92,
-      "leads": 1,
       "cpl": 273.92
     },
     {
       "data": "25/05",
-      "spend": 248.54,
-      "leads": 2,
       "cpl": 124.27
     },
     {
       "data": "26/05",
-      "spend": 115.46,
-      "leads": 2,
-      "cpl": 57.73
+      "cpl": 59.8
     }
   ],
   "canais": [
@@ -261,7 +197,7 @@
       "pct": 32.7
     },
     {
-      "canal": "Audience Network (AN)",
+      "canal": "Audience Network",
       "leads": 12,
       "pct": 23.1
     },
@@ -279,53 +215,57 @@
   "criativos": [
     {
       "nome": "AD07-Não-é-o-mercado",
-      "spend": 1484.93,
-      "cpl_estimado": 28.56
+      "spend": 1486.25,
+      "cpl": 28.58
     },
     {
       "nome": "AD00-Misto",
-      "spend": 1165.5,
-      "cpl_estimado": 22.41
+      "spend": 1168.29,
+      "cpl": 22.47
     },
     {
       "nome": "AD09-Procura-se",
       "spend": 322.35,
-      "cpl_estimado": 6.2
+      "cpl": 6.2
     },
     {
       "nome": "AD06-17.04.26-Lote-0-Anuncio-2",
-      "spend": 222.11,
-      "cpl_estimado": 4.27
+      "spend": 222.13,
+      "cpl": 4.27
     },
     {
       "nome": "AD08-Se-você-parar",
       "spend": 189.82,
-      "cpl_estimado": 3.65
+      "cpl": 3.65
     },
     {
       "nome": "AD04-CACAU-LOTEZERO",
       "spend": 108.18,
-      "cpl_estimado": 2.08
+      "cpl": 2.08
     },
     {
       "nome": "AD03-EQUIPE-LOTEZERO",
       "spend": 45.93,
-      "cpl_estimado": 0.88
+      "cpl": 0.88
     },
     {
       "nome": "AD01-FEEDBACK-LOTEZERO",
       "spend": 43.89,
-      "cpl_estimado": 0.84
+      "cpl": 0.84
     },
     {
       "nome": "AD02-SELEÇÃO-LOTEZERO",
       "spend": 37.99,
-      "cpl_estimado": 0.73
+      "cpl": 0.73
     },
     {
       "nome": "AD05-17.04.26-Lote-0-Anuncio-1",
       "spend": 34.75,
-      "cpl_estimado": 0.67
+      "cpl": 0.67
     }
-  ]
+  ],
+  "segmentacao": {
+    "genero": [],
+    "faixa_etaria": []
+  }
 }
