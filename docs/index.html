@@ -2,33 +2,527 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Exponential Dashboard</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard — Lote0 Imersão</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --card: #1a1d27;
+      --card2: #21253a;
+      --border: #2a2f45;
+      --accent: #6c63ff;
+      --accent2: #ff6584;
+      --accent3: #43e97b;
+      --accent4: #f7971e;
+      --text: #e8eaf6;
+      --muted: #7b82a6;
+      --hot: #ff6b6b;
+      --cold: #4fc3f7;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh;
+      padding: 24px 20px 48px;
+    }
+
+    /* ── HEADER ── */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+    .header-left h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: .5px;
+    }
+    .header-left p {
+      color: var(--muted);
+      font-size: .85rem;
+      margin-top: 4px;
+    }
+    .badge {
+      background: var(--card2);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: .78rem;
+      color: var(--muted);
+    }
+    .badge span { color: var(--accent3); font-weight: 600; }
+
+    /* ── GRID LAYOUT ── */
+    .grid { display: grid; gap: 16px; }
+    .g-3 { grid-template-columns: repeat(3, 1fr); }
+    .g-2 { grid-template-columns: repeat(2, 1fr); }
+    .g-1 { grid-template-columns: 1fr; }
+
+    /* ── CARD ── */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 22px;
+    }
+    .card-title {
+      font-size: .72rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    /* ── KPI CARDS ── */
+    .kpi-value {
+      font-size: 2.2rem;
+      font-weight: 700;
+      line-height: 1;
+    }
+    .kpi-sub {
+      font-size: .8rem;
+      color: var(--muted);
+      margin-top: 6px;
+    }
+    .kpi-accent-purple .kpi-value { color: var(--accent); }
+    .kpi-accent-green  .kpi-value { color: var(--accent3); }
+    .kpi-accent-orange .kpi-value { color: var(--accent4); }
+
+    /* ── AUDIENCE CARDS ── */
+    .aud-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 8px; }
+    .aud-box {
+      border-radius: 10px;
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+    }
+    .aud-hot { background: rgba(255,107,107,.08); border-color: rgba(255,107,107,.25); }
+    .aud-cold{ background: rgba(79,195,247,.08);  border-color: rgba(79,195,247,.25); }
+    .aud-label {
+      font-size: .7rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .aud-hot  .aud-label { color: var(--hot); }
+    .aud-cold .aud-label { color: var(--cold); }
+    .aud-leads { font-size: 1.8rem; font-weight: 700; }
+    .aud-row { display: flex; justify-content: space-between; margin-top: 8px; font-size: .8rem; color: var(--muted); }
+    .aud-row strong { color: var(--text); }
+
+    /* ── FUNIL ── */
+    .funil-list { display: flex; flex-direction: column; gap: 10px; margin-top: 6px; }
+    .funil-item { display: flex; flex-direction: column; gap: 4px; }
+    .funil-header { display: flex; justify-content: space-between; font-size: .82rem; }
+    .funil-header span:last-child { color: var(--muted); font-size: .75rem; }
+    .funil-bar-bg {
+      background: var(--card2);
+      border-radius: 4px;
+      height: 6px;
+      overflow: hidden;
+    }
+    .funil-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      transition: width .6s ease;
+    }
+
+    /* ── CHART WRAPPER ── */
+    .chart-wrap { position: relative; height: 220px; margin-top: 8px; }
+
+    /* ── CANAIS TABLE ── */
+    .canal-list { margin-top: 8px; display: flex; flex-direction: column; gap: 10px; }
+    .canal-item { display: flex; align-items: center; gap: 10px; }
+    .canal-name { font-size: .82rem; min-width: 160px; }
+    .canal-bar-bg {
+      flex: 1;
+      background: var(--card2);
+      border-radius: 4px;
+      height: 8px;
+      overflow: hidden;
+    }
+    .canal-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+      background: linear-gradient(90deg, var(--accent), #a78bfa);
+    }
+    .canal-count { font-size: .82rem; font-weight: 600; min-width: 40px; text-align: right; }
+    .canal-pct { font-size: .75rem; color: var(--muted); min-width: 40px; text-align: right; }
+
+    /* ── CRIATIVOS TABLE ── */
+    table { width: 100%; border-collapse: collapse; font-size: .8rem; margin-top: 10px; }
+    thead th {
+      text-align: left;
+      color: var(--muted);
+      font-size: .7rem;
+      letter-spacing: .8px;
+      text-transform: uppercase;
+      padding: 0 8px 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    tbody tr:hover { background: var(--card2); border-radius: 8px; }
+    tbody td { padding: 9px 8px; border-bottom: 1px solid rgba(255,255,255,.04); }
+    tbody td:first-child { color: var(--text); }
+    tbody td:not(:first-child) { color: var(--muted); text-align: right; }
+    tbody td strong { color: var(--text); }
+    .tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: .68rem;
+      font-weight: 600;
+      letter-spacing: .5px;
+    }
+    .tag-hot  { background: rgba(255,107,107,.15); color: var(--hot); }
+    .tag-cold { background: rgba(79,195,247,.15);  color: var(--cold); }
+
+    /* ── SEGMENTAÇÃO ── */
+    .seg-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 8px; }
+    .seg-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 14px;
+      background: var(--card2);
+      border-radius: 8px;
+      font-size: .82rem;
+      gap: 8px;
+    }
+    .seg-item .seg-label { color: var(--muted); flex: 1; }
+    .seg-item .seg-leads { font-weight: 700; min-width: 36px; text-align: right; }
+    .seg-item .seg-cpl   { color: var(--accent4); font-size: .75rem; min-width: 60px; text-align: right; }
+
+    /* ── SECTION SEPARATOR ── */
+    .section-title {
+      font-size: .7rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 28px 0 12px;
+    }
+
+    /* ── SKELETON ── */
+    .skeleton {
+      background: linear-gradient(90deg, var(--card2) 25%, var(--border) 50%, var(--card2) 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.2s infinite;
+      border-radius: 8px;
+      height: 1.5rem;
+    }
+    @keyframes shimmer { to { background-position: -200% 0; } }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .g-3 { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 600px) {
+      .g-3, .g-2 { grid-template-columns: 1fr; }
+      .aud-grid, .seg-grid { grid-template-columns: 1fr; }
+      .kpi-value { font-size: 1.8rem; }
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Exponential</h1>
-    <p>Dashboard</p>
-  </header>
 
-  <main>
-    <section class="cards">
-      <div class="card">
-        <h2>Métrica 1</h2>
-        <span class="value">0</span>
-      </div>
-      <div class="card">
-        <h2>Métrica 2</h2>
-        <span class="value">0</span>
-      </div>
-      <div class="card">
-        <h2>Métrica 3</h2>
-        <span class="value">0</span>
-      </div>
-    </section>
-  </main>
+<header>
+  <div class="header-left">
+    <h1 id="evento-nome">Lote0 Imersão</h1>
+    <p id="evento-meta">Carregando dados...</p>
+  </div>
+  <div class="badge">Atualizado às <span id="atualizado">—</span></div>
+</header>
 
-  <script src="app.js"></script>
+<!-- KPIs -->
+<div class="section-title">Visão Geral</div>
+<div class="grid g-3">
+  <div class="card kpi-accent-green">
+    <div class="card-title">Leads Totais</div>
+    <div class="kpi-value" id="kpi-leads">—</div>
+    <div class="kpi-sub" id="kpi-periodo">—</div>
+  </div>
+  <div class="card kpi-accent-purple">
+    <div class="card-title">CPL Geral</div>
+    <div class="kpi-value" id="kpi-cpl">—</div>
+    <div class="kpi-sub">Custo por lead</div>
+  </div>
+  <div class="card kpi-accent-orange">
+    <div class="card-title">Investimento Total</div>
+    <div class="kpi-value" id="kpi-invest">—</div>
+    <div class="kpi-sub">Período completo</div>
+  </div>
+</div>
+
+<!-- AUDIÊNCIAS -->
+<div class="section-title">Audiências</div>
+<div class="card">
+  <div class="card-title">HOT vs COLD</div>
+  <div class="aud-grid">
+    <div class="aud-box aud-hot">
+      <div class="aud-label">HOT</div>
+      <div class="aud-leads" id="hot-leads">—</div>
+      <div class="aud-row">
+        <span>Investido</span>
+        <strong id="hot-spend">—</strong>
+      </div>
+      <div class="aud-row">
+        <span>CPL</span>
+        <strong id="hot-cpl">—</strong>
+      </div>
+    </div>
+    <div class="aud-box aud-cold">
+      <div class="aud-label">COLD</div>
+      <div class="aud-leads" id="cold-leads">—</div>
+      <div class="aud-row">
+        <span>Investido</span>
+        <strong id="cold-spend">—</strong>
+      </div>
+      <div class="aud-row">
+        <span>CPL</span>
+        <strong id="cold-cpl">—</strong>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- GRÁFICOS LEADS + CPL POR DIA -->
+<div class="section-title">Evolução Diária</div>
+<div class="grid g-2">
+  <div class="card">
+    <div class="card-title">Leads por Dia</div>
+    <div class="chart-wrap"><canvas id="chart-leads-dia"></canvas></div>
+  </div>
+  <div class="card">
+    <div class="card-title">CPL por Dia (€)</div>
+    <div class="chart-wrap"><canvas id="chart-cpl-dia"></canvas></div>
+  </div>
+</div>
+
+<!-- FUNIL -->
+<div class="section-title">Funil de Conversão</div>
+<div class="grid g-2">
+  <div class="card">
+    <div class="card-title">Etapas do Funil</div>
+    <div class="funil-list" id="funil-list"></div>
+  </div>
+  <div class="card">
+    <div class="card-title">Taxas</div>
+    <div class="funil-list" id="taxas-list"></div>
+  </div>
+</div>
+
+<!-- CANAIS -->
+<div class="section-title">Leads por Canal</div>
+<div class="card">
+  <div class="card-title">Distribuição de Canais</div>
+  <div class="canal-list" id="canal-list"></div>
+</div>
+
+<!-- CRIATIVOS -->
+<div class="section-title">Top Criativos</div>
+<div class="card">
+  <div class="card-title">Performance por Criativo</div>
+  <table>
+    <thead>
+      <tr>
+        <th>Criativo</th>
+        <th style="text-align:right">Leads</th>
+        <th style="text-align:right">Investido</th>
+        <th style="text-align:right">CPL</th>
+      </tr>
+    </thead>
+    <tbody id="criativos-tbody"></tbody>
+  </table>
+</div>
+
+<!-- SEGMENTAÇÃO -->
+<div class="section-title">Segmentação</div>
+<div class="grid g-2">
+  <div class="card">
+    <div class="card-title">Por Gênero</div>
+    <div class="seg-grid" id="seg-genero"></div>
+  </div>
+  <div class="card">
+    <div class="card-title">Por Faixa Etária</div>
+    <div class="seg-grid" id="seg-idade"></div>
+  </div>
+</div>
+
+<script>
+const eur = v => `€ ${Number(v).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}`;
+const num = v => Number(v).toLocaleString('pt-BR');
+
+const CHART_DEFAULTS = {
+  color: '#7b82a6',
+  plugins: { legend: { display: false }, tooltip: { backgroundColor:'#1a1d27', borderColor:'#2a2f45', borderWidth:1, titleColor:'#e8eaf6', bodyColor:'#7b82a6', padding:10 } },
+  scales: {
+    x: { grid:{ color:'rgba(255,255,255,.05)' }, ticks:{ color:'#7b82a6', font:{size:11} } },
+    y: { grid:{ color:'rgba(255,255,255,.05)' }, ticks:{ color:'#7b82a6', font:{size:11} } }
+  }
+};
+
+function makeBar(id, labels, values, color='#6c63ff') {
+  const ctx = document.getElementById(id).getContext('2d');
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels,
+      datasets:[{ data:values, backgroundColor: color+'88', borderColor: color, borderWidth:1.5, borderRadius:5 }]
+    },
+    options: { ...CHART_DEFAULTS, maintainAspectRatio:false, responsive:true }
+  });
+}
+
+function makeLine(id, labels, values, color='#43e97b') {
+  const ctx = document.getElementById(id).getContext('2d');
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets:[{
+        data:values,
+        borderColor: color,
+        backgroundColor: color+'22',
+        borderWidth:2,
+        pointBackgroundColor: color,
+        pointRadius:4,
+        tension:.35,
+        fill:true
+      }]
+    },
+    options: { ...CHART_DEFAULTS, maintainAspectRatio:false, responsive:true }
+  });
+}
+
+function renderFunilItem(label, value, pct, max) {
+  return `
+    <div class="funil-item">
+      <div class="funil-header">
+        <span>${label}: <strong>${num(value)}</strong></span>
+        <span>${pct}</span>
+      </div>
+      <div class="funil-bar-bg">
+        <div class="funil-bar-fill" style="width:${Math.min(100,max)}%"></div>
+      </div>
+    </div>`;
+}
+
+async function load() {
+  let d;
+  try {
+    const res = await fetch('./data.json?_=' + Date.now());
+    d = await res.json();
+  } catch(e) {
+    document.querySelector('header .badge').innerHTML = '<span style="color:#ff6b6b">Erro ao carregar data.json</span>';
+    return;
+  }
+
+  // META
+  document.getElementById('evento-nome').textContent = d.meta?.evento || 'Dashboard';
+  document.getElementById('evento-meta').textContent =
+    `${d.meta?.cliente || ''} · Evento: ${d.meta?.data_evento || ''} · Período: ${d.meta?.periodo || ''}`;
+  document.getElementById('atualizado').textContent = d.meta?.atualizado_em || '—';
+
+  // KPIs
+  document.getElementById('kpi-leads').textContent  = num(d.kpis?.leads_total);
+  document.getElementById('kpi-cpl').textContent    = eur(d.kpis?.cpl_total);
+  document.getElementById('kpi-invest').textContent = eur(d.kpis?.investimento_total);
+  document.getElementById('kpi-periodo').textContent = `${d.meta?.dias_ativos || '—'} dias ativos`;
+
+  // AUDIÊNCIAS
+  const hot  = d.audiencias?.hot  || {};
+  const cold = d.audiencias?.cold || {};
+  document.getElementById('hot-leads').textContent = num(hot.leads  || 0);
+  document.getElementById('hot-spend').textContent = eur(hot.spend  || 0);
+  document.getElementById('hot-cpl').textContent   = eur(hot.cpl    || 0);
+  document.getElementById('cold-leads').textContent = num(cold.leads || 0);
+  document.getElementById('cold-spend').textContent = eur(cold.spend || 0);
+  document.getElementById('cold-cpl').textContent   = eur(cold.cpl   || 0);
+
+  // GRÁFICO LEADS POR DIA
+  if (d.leads_por_dia?.length) {
+    makeBar('chart-leads-dia',
+      d.leads_por_dia.map(r=>r.data),
+      d.leads_por_dia.map(r=>r.leads),
+      '#43e97b'
+    );
+  }
+
+  // GRÁFICO CPL POR DIA
+  if (d.cpl_por_dia?.length) {
+    makeLine('chart-cpl-dia',
+      d.cpl_por_dia.map(r=>r.data),
+      d.cpl_por_dia.map(r=>r.cpl),
+      '#f7971e'
+    );
+  }
+
+  // FUNIL
+  const f = d.funil || {};
+  const maxV = f.impressoes || 1;
+  document.getElementById('funil-list').innerHTML =
+    renderFunilItem('Impressões',  f.impressoes, '',           100) +
+    renderFunilItem('Cliques',     f.cliques,    '',           (f.cliques/maxV*100).toFixed(1)+'%') +
+    renderFunilItem('Page Views',  f.page_views, '',           (f.page_views/maxV*100).toFixed(1)+'%') +
+    renderFunilItem('Leads',       f.leads,      '',           (f.leads/maxV*100).toFixed(1)+'%');
+
+  document.getElementById('taxas-list').innerHTML =
+    renderFunilItem('CTR',              (f.ctr||0)+'%',              '', f.ctr||0) +
+    renderFunilItem('Connect Rate',     (f.connect_rate||0)+'%',     '', f.connect_rate||0) +
+    renderFunilItem('Taxa Lead/PV',     (f.taxa_conversao||0)+'%',   '', f.taxa_conversao||0);
+
+  // CANAIS
+  const maxCanal = Math.max(...(d.canais||[]).map(c=>c.leads));
+  document.getElementById('canal-list').innerHTML = (d.canais||[])
+    .sort((a,b)=>b.leads-a.leads)
+    .map(c=>`
+      <div class="canal-item">
+        <span class="canal-name">${c.canal}</span>
+        <div class="canal-bar-bg">
+          <div class="canal-bar-fill" style="width:${(c.leads/maxCanal*100).toFixed(1)}%"></div>
+        </div>
+        <span class="canal-count">${num(c.leads)}</span>
+        <span class="canal-pct">${c.pct}%</span>
+      </div>`).join('');
+
+  // CRIATIVOS
+  document.getElementById('criativos-tbody').innerHTML = (d.criativos||[])
+    .map(c => {
+      const tipo = c.nome.includes('COLD') ? '<span class="tag tag-cold">COLD</span>'
+                 : c.nome.includes('HOT')  ? '<span class="tag tag-hot">HOT</span>'
+                 : '';
+      const nome = c.nome.length > 48 ? c.nome.substring(0,48)+'…' : c.nome;
+      return `<tr>
+        <td>${tipo} ${nome}</td>
+        <td><strong>${num(c.leads)}</strong></td>
+        <td>${eur(c.spend)}</td>
+        <td>${eur(c.cpl)}</td>
+      </tr>`;
+    }).join('');
+
+  // SEGMENTAÇÃO
+  const renderSeg = (items) => (items||[]).map(s=>`
+    <div class="seg-item">
+      <span class="seg-label">${s.grupo}</span>
+      <span class="seg-leads">${num(s.leads)}</span>
+      <span class="seg-cpl">${eur(s.cpl)}</span>
+    </div>`).join('');
+
+  document.getElementById('seg-genero').innerHTML = renderSeg(d.segmentacao?.genero);
+  document.getElementById('seg-idade').innerHTML  = renderSeg(d.segmentacao?.faixa_etaria);
+}
+
+load();
+</script>
 </body>
 </html>
