@@ -349,12 +349,12 @@
 <div class="section-title">Segmentação</div>
 <div class="grid g-2">
   <div class="card">
-    <div class="card-title">Por Gênero</div>
-    <div class="seg-grid" id="seg-genero"></div>
+    <div class="card-title">Por Cargo</div>
+    <div class="seg-grid" id="seg-cargo"></div>
   </div>
   <div class="card">
-    <div class="card-title">Por Faixa Etária</div>
-    <div class="seg-grid" id="seg-idade"></div>
+    <div class="card-title">Por Faixa de Faturamento</div>
+    <div class="seg-grid" id="seg-faturamento"></div>
   </div>
 </div>
 
@@ -515,11 +515,11 @@ async function load() {
     <div class="seg-item">
       <span class="seg-label">${s.grupo}</span>
       <span class="seg-leads">${num(s.leads)}</span>
-      <span class="seg-cpl">${eur(s.cpl)}</span>
+      <span class="seg-cpl" style="color:var(--accent)">${s.pct}%</span>
     </div>`).join('');
 
-  document.getElementById('seg-genero').innerHTML = renderSeg(d.segmentacao?.genero);
-  document.getElementById('seg-idade').innerHTML  = renderSeg(d.segmentacao?.faixa_etaria);
+  document.getElementById('seg-cargo').innerHTML       = renderSeg(d.segmentacao?.cargo);
+  document.getElementById('seg-faturamento').innerHTML = renderSeg(d.segmentacao?.faturamento);
 }
 
 load();
