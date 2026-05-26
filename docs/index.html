@@ -405,10 +405,11 @@ function makeLine(id, labels, values, color='#43e97b') {
 }
 
 function renderFunilItem(label, value, pct, max) {
+  const displayVal = typeof value === 'number' ? num(value) : value;
   return `
     <div class="funil-item">
       <div class="funil-header">
-        <span>${label}: <strong>${num(value)}</strong></span>
+        <span>${label}: <strong>${displayVal}</strong></span>
         <span>${pct}</span>
       </div>
       <div class="funil-bar-bg">
