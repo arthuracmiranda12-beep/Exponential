@@ -307,7 +307,6 @@
             <th onclick="sortUTM('campanha')">Campanha (utm_term)</th>
             <th onclick="sortUTM('conjunto')">Conjunto (utm_medium)</th>
             <th onclick="sortUTM('criativo')">Criativo (utm_content)</th>
-            <th onclick="sortUTM('canal')">Canal</th>
             <th onclick="sortUTM('leads')" class="sorted-desc">Leads</th>
             <th onclick="sortUTM('spend')">Investido</th>
             <th onclick="sortUTM('cpl')">CPL</th>
@@ -401,7 +400,7 @@ function sortUTM(key) {
     th.classList.remove('sorted-asc','sorted-desc');
   });
   const ths = document.querySelectorAll('.utm-table thead th');
-  const keyMap = {tipo:0,campanha:1,conjunto:2,criativo:3,canal:4,leads:5,spend:6,cpl:7};
+  const keyMap = {tipo:0,campanha:1,conjunto:2,criativo:3,leads:4,spend:5,cpl:6};
   const idx = keyMap[key];
   if (idx !== undefined) ths[idx].classList.add(utmSort.dir===1?'sorted-asc':'sorted-desc');
   renderUTM();
@@ -410,7 +409,7 @@ function sortUTM(key) {
 function renderUTM() {
   const q = document.getElementById('utm-search').value.toLowerCase();
   let rows = utmData.filter(r => {
-    const matchText = !q || [r.campanha,r.conjunto,r.criativo,r.canal].join(' ').toLowerCase().includes(q);
+    const matchText = !q || [r.campanha,r.conjunto,r.criativo].join(' ').toLowerCase().includes(q);
     const matchFilter = !utmFilter || r.tipo === utmFilter;
     return matchText && matchFilter;
   });
@@ -426,7 +425,6 @@ function renderUTM() {
       <td class="trunc" title="${r.campanha}">${truncate(r.campanha,40)}</td>
       <td class="trunc" title="${r.conjunto}">${truncate(r.conjunto,35)}</td>
       <td class="trunc" title="${r.criativo}">${truncate(r.criativo,25)}</td>
-      <td>${canalChip(r.canal)}</td>
       <td class="num">${r.leads}</td>
       <td class="eur">${eur(r.spend)}</td>
       <td class="cpl">${r.cpl>0?eur(r.cpl):'—'}</td>
