@@ -321,7 +321,7 @@
 </div><!-- /tab-funil -->
 
 <script>
-const eur = v => `€ ${Number(v).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}`;
+const eur = v => `R$ ${Number(v).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}`;
 const num = v => { const n = typeof v === 'number' ? v : Number(v); return isNaN(n) ? v : n.toLocaleString('pt-BR'); };
 
 const CHART_OPTS = {
