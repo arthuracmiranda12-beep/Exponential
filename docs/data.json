@@ -5,7 +5,7 @@
     "data_evento": "28/05/2026",
     "periodo": "06/05/2026 a 26/05/2026",
     "dias_ativos": 21,
-    "atualizado_em": "27/05/2026 16:15"
+    "atualizado_em": "27/05/2026 16:29"
   },
   "kpis": {
     "investimento_total": 3659.58,
@@ -279,37 +279,33 @@
       "campanha": "COR-B-LOTE0IMERSAO-LEADS-HOT-BRASIL-VD-IMG-FEED-STORIES-P1-2026-05-07",
       "conjunto": "00-HOT-SEGUIDORES-VV-50%-LISTAOUTBOUND",
       "criativo": "AD07-Não-é-o-mercado",
-      "canal": "an",
-      "leads": 6,
+      "leads": 12,
       "spend": 1114.85,
-      "cpl": 185.81
+      "cpl": 92.9
     },
     {
       "tipo": "HOT",
       "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-IMG-FEED-STORIES-P1-2026-05-07",
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD00-Misto",
-      "canal": "fb",
-      "leads": 6,
+      "leads": 8,
       "spend": 972.66,
-      "cpl": 162.11
+      "cpl": 121.58
     },
     {
       "tipo": "HOT",
-      "campanha": "COR-B-LOTE0IMERSAO-LEADS-HOT-BRASIL-VD-IMG-FEED-STORIES-P1-2026-05-07",
-      "conjunto": "00-HOT-SEGUIDORES-VV-50%-LISTAOUTBOUND",
+      "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-IMG-FEED-STORIES-P1-2026-05-07",
+      "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD07-Não-é-o-mercado",
-      "canal": "ig",
-      "leads": 4,
-      "spend": 1114.85,
-      "cpl": 278.71
+      "leads": 6,
+      "spend": 220.93,
+      "cpl": 36.82
     },
     {
       "tipo": "OUTRO",
       "campanha": "",
       "conjunto": "",
       "criativo": "",
-      "canal": "",
       "leads": 3,
       "spend": 0.0,
       "cpl": 0.0
@@ -319,67 +315,42 @@
       "campanha": "COR-B-LOTE0IMERSAO-LEADS-COLD-INT-SUL-SUDESTE-VD-FEED-STORIES-P1-2026-04-18",
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD07-Não-é-o-mercado",
-      "canal": "ig",
       "leads": 2,
       "spend": 220.93,
       "cpl": 110.47
     },
     {
       "tipo": "HOT",
-      "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-IMG-FEED-STORIES-P1-2026-05-07",
-      "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
+      "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-FEED-STORIES-P1-2026-04-23",
+      "conjunto": "00-HOT-INT-Visitantes-Outbound",
       "criativo": "AD07-Não-é-o-mercado",
-      "canal": "fb",
       "leads": 2,
-      "spend": 220.93,
-      "cpl": 110.47
-    },
-    {
-      "tipo": "HOT",
-      "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-IMG-FEED-STORIES-P1-2026-05-07",
-      "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
-      "criativo": "AD07-Não-é-o-mercado",
-      "canal": "an",
-      "leads": 2,
-      "spend": 220.93,
-      "cpl": 110.47
-    },
-    {
-      "tipo": "HOT",
-      "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-IMG-FEED-STORIES-P1-2026-05-07",
-      "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
-      "criativo": "AD07-Não-é-o-mercado",
-      "canal": "ig",
-      "leads": 2,
-      "spend": 220.93,
-      "cpl": 110.47
+      "spend": 1486.25,
+      "cpl": 743.12
     },
     {
       "tipo": "COLD",
       "campanha": "COR-A-LOTE0IMERSAO-LEADS-COLD-INT-SUL-SUDESTE-VD-IMG-FEED-STORIES-P1-2026-05-06",
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD06-17.04.26-Lote-0-Anuncio-2",
-      "canal": "fb",
       "leads": 2,
       "spend": 28.54,
       "cpl": 14.27
     },
     {
       "tipo": "HOT",
-      "campanha": "COR-B-LOTE0IMERSAO-LEADS-HOT-BRASIL-VD-IMG-FEED-STORIES-P1-2026-05-07",
-      "conjunto": "00-HOT-SEGUIDORES-VV-50%-LISTAOUTBOUND",
-      "criativo": "AD07-Não-é-o-mercado",
-      "canal": "fb",
+      "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-IMG-FEED-STORIES-P1-2026-05-07",
+      "conjunto": "00-COLD-INT-Dores-de-gestao",
+      "criativo": "AD09-Procura-se",
       "leads": 2,
-      "spend": 1114.85,
-      "cpl": 557.43
+      "spend": 219.3,
+      "cpl": 109.65
     },
     {
       "tipo": "COLD",
       "campanha": "COR-B-LOTE0IMERSAO-LEADS-COLD-INT-SUL-VD-FEED-STORIES-P1-2026-04-18",
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD00-Misto",
-      "canal": "ig",
       "leads": 1,
       "spend": 28.95,
       "cpl": 28.95
@@ -389,7 +360,6 @@
       "campanha": "COR-B-LOTE0IMERSAO-LEADS-COLD-INT-SUL-SUDESTE-VD-FEED-STORIES-P1-2026-04-18",
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD00-Misto",
-      "canal": "th",
       "leads": 1,
       "spend": 28.95,
       "cpl": 28.95
@@ -399,7 +369,6 @@
       "campanha": "COR-B-LOTE0IMERSAO-LEADS-COLD-INT-SUL-VD-FEED-STORIES-P1-2026-04-18",
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD06-17.04.26-Lote-0-Anuncio-2",
-      "canal": "ig",
       "leads": 1,
       "spend": 28.54,
       "cpl": 28.54
@@ -409,37 +378,15 @@
       "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-FEED-STORIES-P1-2026-04-23",
       "conjunto": "00-HOT-INT-Visitantes-Outbound",
       "criativo": "AD08-Se-você-parar",
-      "canal": "ig",
       "leads": 1,
       "spend": 189.82,
       "cpl": 189.82
-    },
-    {
-      "tipo": "HOT",
-      "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-FEED-STORIES-P1-2026-04-23",
-      "conjunto": "00-HOT-INT-Visitantes-Outbound",
-      "criativo": "AD07-Não-é-o-mercado",
-      "canal": "ig",
-      "leads": 1,
-      "spend": 1486.25,
-      "cpl": 1486.25
-    },
-    {
-      "tipo": "HOT",
-      "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-FEED-STORIES-P1-2026-04-23",
-      "conjunto": "00-HOT-INT-Visitantes-Outbound",
-      "criativo": "AD07-Não-é-o-mercado",
-      "canal": "an",
-      "leads": 1,
-      "spend": 1486.25,
-      "cpl": 1486.25
     },
     {
       "tipo": "COLD",
       "campanha": "COR-B-LOTE0IMERSAO-LEADS-COLD-INT-SUL-SUDESTE-VD-FEED-STORIES-P1-2026-04-18",
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD08-Se-você-parar",
-      "canal": "an",
       "leads": 1,
       "spend": 105.15,
       "cpl": 105.15
@@ -449,7 +396,6 @@
       "campanha": "COR-B-LOTE0IMERSAO-LEADS-COLD-INT-SUL-SUDESTE-VD-FEED-STORIES-P1-2026-04-18",
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD09-Procura-se",
-      "canal": "ig",
       "leads": 1,
       "spend": 322.35,
       "cpl": 322.35
@@ -459,7 +405,6 @@
       "campanha": "COR-B-LOTE0IMERSAO-LEADS-COLD-INT-SUL-SUDESTE-VD-FEED-STORIES-P1-2026-04-18",
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD08-Se-você-parar",
-      "canal": "an",
       "leads": 1,
       "spend": 39.14,
       "cpl": 39.14
@@ -469,7 +414,6 @@
       "campanha": "COR-A-LOTE0IMERSAO-LEADS-COLD-INT-SUL-SUDESTE-VD-IMG-FEED-STORIES-P1-2026-05-06",
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD05-17.04.26-Lote-0-Anuncio-1",
-      "canal": "fb",
       "leads": 1,
       "spend": 20.84,
       "cpl": 20.84
@@ -479,7 +423,6 @@
       "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-IMG-FEED-STORIES-P1-2026-05-07",
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD08-Se-você-parar",
-      "canal": "fb",
       "leads": 1,
       "spend": 105.15,
       "cpl": 105.15
@@ -489,47 +432,24 @@
       "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-IMG-FEED-STORIES-P1-2026-05-07",
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD07-Não-é-o-mercado",
-      "canal": "ig",
       "leads": 1,
       "spend": 140.78,
       "cpl": 140.78
-    },
-    {
-      "tipo": "HOT",
-      "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-IMG-FEED-STORIES-P1-2026-05-07",
-      "conjunto": "00-COLD-INT-Dores-de-gestao",
-      "criativo": "AD09-Procura-se",
-      "canal": "ig",
-      "leads": 1,
-      "spend": 219.3,
-      "cpl": 219.3
     },
     {
       "tipo": "OUTRO",
       "campanha": "6954887566902.0",
       "conjunto": "paid",
       "criativo": "6954887569502.0",
-      "canal": "fb",
       "leads": 1,
       "spend": 0.0,
       "cpl": 0.0
     },
     {
       "tipo": "HOT",
-      "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-IMG-FEED-STORIES-P1-2026-05-07",
-      "conjunto": "00-COLD-INT-Dores-de-gestao",
-      "criativo": "AD09-Procura-se",
-      "canal": "fb",
-      "leads": 1,
-      "spend": 219.3,
-      "cpl": 219.3
-    },
-    {
-      "tipo": "HOT",
       "campanha": "COR-A-LOTE0IMERSAO-V2-LEADS-HOT-BRASIL-VD-IMG-FEED-STORIES-P1-2026-05-18",
       "conjunto": "00-HOT-SEGUIDORES-VV-50%-LISTAOUTBOUND",
       "criativo": "AD09-Procura-se",
-      "canal": "fb",
       "leads": 1,
       "spend": 75.76,
       "cpl": 75.76
@@ -539,7 +459,6 @@
       "campanha": "",
       "conjunto": "social",
       "criativo": "link_in_bio",
-      "canal": "ig",
       "leads": 1,
       "spend": 0.0,
       "cpl": 0.0
@@ -549,7 +468,6 @@
       "campanha": "COR-A-LOTE0IMERSAO-V2-LEADS-HOT-BRASIL-VD-IMG-FEED-STORIES-P1-2026-05-18",
       "conjunto": "00-HOT-SEGUIDORES-VV-50%-LISTAOUTBOUND",
       "criativo": "AD04-CACAU-LOTEZERO",
-      "canal": "fb",
       "leads": 1,
       "spend": 12.01,
       "cpl": 12.01
@@ -558,31 +476,10 @@
       "tipo": "HOT",
       "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-IMG-FEED-STORIES-P1-2026-05-07",
       "conjunto": "00-COLD-INT-Dores-de-gestao",
-      "criativo": "AD00-Misto",
-      "canal": "an",
-      "leads": 1,
-      "spend": 972.66,
-      "cpl": 972.66
-    },
-    {
-      "tipo": "HOT",
-      "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-IMG-FEED-STORIES-P1-2026-05-07",
-      "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD04-CACAU-LOTEZERO",
-      "canal": "fb",
       "leads": 1,
       "spend": 84.26,
       "cpl": 84.26
-    },
-    {
-      "tipo": "HOT",
-      "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-IMG-FEED-STORIES-P1-2026-05-07",
-      "conjunto": "00-COLD-INT-Dores-de-gestao",
-      "criativo": "AD00-Misto",
-      "canal": "ig",
-      "leads": 1,
-      "spend": 972.66,
-      "cpl": 972.66
     }
   ]
 }
