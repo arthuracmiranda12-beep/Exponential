@@ -436,12 +436,18 @@ function renderUTM() {
 // ── LOAD ──────────────────────────────────────────────────────────────────────
 async function load() {
   let d;
+  const RAW_URL = 'https://raw.githubusercontent.com/arthuracmiranda12-beep/Exponential/master/docs/data.json';
   try {
-    const res = await fetch('./data.json?_='+Date.now());
+    const res = await fetch(RAW_URL + '?_=' + Date.now(), { cache: 'no-store' });
     d = await res.json();
   } catch(e) {
-    document.querySelector('.badge').innerHTML='<span style="color:#ff6b6b">Erro ao carregar data.json</span>';
-    return;
+    try {
+      const res2 = await fetch('./data.json?_=' + Date.now(), { cache: 'no-store' });
+      d = await res2.json();
+    } catch(e2) {
+      document.querySelector('.badge').innerHTML='<span style="color:#ff6b6b">Erro ao carregar data.json</span>';
+      return;
+    }
   }
 
   document.getElementById('evento-nome').textContent = d.meta?.evento||'Dashboard';
