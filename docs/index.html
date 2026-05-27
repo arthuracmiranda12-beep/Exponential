@@ -436,23 +436,28 @@ function renderUTM() {
 // ── LOAD ──────────────────────────────────────────────────────────────────────
 async function load() {
   let d;
-  const RAW_URL = 'https://raw.githubusercontent.com/arthuracmiranda12-beep/Exponential/master/docs/data.json';
-  try {
-    const res = await fetch(RAW_URL + '?_=' + Date.now(), { cache: 'no-store' });
-    d = await res.json();
-  } catch(e) {
+  const urls = [
+    'https://raw.githubusercontent.com/arthuracmiranda12-beep/Exponential/master/docs/data.json',
+    './data.json'
+  ];
+  for (const url of urls) {
     try {
-      const res2 = await fetch('./data.json?_=' + Date.now(), { cache: 'no-store' });
-      d = await res2.json();
-    } catch(e2) {
-      document.querySelector('.badge').innerHTML='<span style="color:#ff6b6b">Erro ao carregar data.json</span>';
-      return;
-    }
+      const res = await fetch(url + '?v=' + Date.now());
+      if (!res.ok) continue;
+      d = await res.json();
+      if (d) break;
+    } catch(e) { continue; }
   }
+  if (!d) {
+    document.querySelector('.badge').innerHTML='<span style="color:#ff6b6b">Erro ao carregar dados</span>';
+    return;
+  }
+  // debug visível
+  const utmLen = (d.utm_breakdown||[]).length;
+  document.getElementById('atualizado').textContent = (d.meta?.atualizado_em||'—') + ' · ' + utmLen + ' UTMs';
 
   document.getElementById('evento-nome').textContent = d.meta?.evento||'Dashboard';
   document.getElementById('evento-meta').textContent = `${d.meta?.cliente||''} · Evento: ${d.meta?.data_evento||''} · Período: ${d.meta?.periodo||''}`;
-  document.getElementById('atualizado').textContent  = d.meta?.atualizado_em||'—';
 
   // KPIs
   document.getElementById('kpi-leads').textContent   = num(d.kpis?.leads_total);
