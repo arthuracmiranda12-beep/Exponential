@@ -5,7 +5,7 @@
     "data_evento": "28/05/2026",
     "periodo": "06/05/2026 a 26/05/2026",
     "dias_ativos": 21,
-    "atualizado_em": "27/05/2026 16:29"
+    "atualizado_em": "27/05/2026 16:31"
   },
   "kpis": {
     "investimento_total": 3659.58,
@@ -280,8 +280,8 @@
       "conjunto": "00-HOT-SEGUIDORES-VV-50%-LISTAOUTBOUND",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 12,
-      "spend": 1114.85,
-      "cpl": 92.9
+      "spend": 1058.52,
+      "cpl": 88.21
     },
     {
       "tipo": "HOT",
@@ -289,8 +289,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD00-Misto",
       "leads": 8,
-      "spend": 972.66,
-      "cpl": 121.58
+      "spend": 923.84,
+      "cpl": 115.48
     },
     {
       "tipo": "HOT",
@@ -298,8 +298,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 6,
-      "spend": 220.93,
-      "cpl": 36.82
+      "spend": 195.96,
+      "cpl": 32.66
     },
     {
       "tipo": "OUTRO",
@@ -334,8 +334,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD06-17.04.26-Lote-0-Anuncio-2",
       "leads": 2,
-      "spend": 28.54,
-      "cpl": 14.27
+      "spend": 23.69,
+      "cpl": 11.84
     },
     {
       "tipo": "HOT",
@@ -343,8 +343,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD09-Procura-se",
       "leads": 2,
-      "spend": 219.3,
-      "cpl": 109.65
+      "spend": 186.86,
+      "cpl": 93.43
     },
     {
       "tipo": "COLD",
@@ -415,8 +415,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD05-17.04.26-Lote-0-Anuncio-1",
       "leads": 1,
-      "spend": 20.84,
-      "cpl": 20.84
+      "spend": 16.91,
+      "cpl": 16.91
     },
     {
       "tipo": "HOT",
@@ -424,8 +424,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD08-Se-você-parar",
       "leads": 1,
-      "spend": 105.15,
-      "cpl": 105.15
+      "spend": 49.02,
+      "cpl": 49.02
     },
     {
       "tipo": "HOT",
@@ -433,8 +433,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 1,
-      "spend": 140.78,
-      "cpl": 140.78
+      "spend": 112.33,
+      "cpl": 112.33
     },
     {
       "tipo": "OUTRO",
@@ -478,8 +478,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD04-CACAU-LOTEZERO",
       "leads": 1,
-      "spend": 84.26,
-      "cpl": 84.26
+      "spend": 82.41,
+      "cpl": 82.41
     }
   ]
 }
