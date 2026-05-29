@@ -3,20 +3,20 @@
     "evento": "Lote0 Imersao",
     "cliente": "Ricardo Mello",
     "data_evento": "28/05/2026",
-    "periodo": "06/05/2026 a 28/05/2026",
+    "periodo": "06/05/2026 a 29/05/2026",
     "dias_ativos": 22,
-    "atualizado_em": "28/05/2026 12:14"
+    "atualizado_em": "29/05/2026 12:30"
   },
   "kpis": {
-    "investimento_total": 4038.31,
-    "cpl_total": 74.78,
+    "investimento_total": 4273.5,
+    "cpl_total": 79.14,
     "leads_total": 54
   },
   "audiencias": {
     "hot": {
       "leads": 38,
-      "spend": 3614.34,
-      "cpl": 95.11
+      "spend": 3849.53,
+      "cpl": 101.3
     },
     "cold": {
       "leads": 11,
@@ -25,13 +25,13 @@
     }
   },
   "funil": {
-    "impressoes": 16951,
-    "cliques": 695,
-    "page_views": 465,
+    "impressoes": 17887,
+    "cliques": 734,
+    "page_views": 486,
     "leads": 54,
     "ctr": 4.1,
-    "connect_rate": 66.91,
-    "taxa_conversao": 11.61
+    "connect_rate": 66.21,
+    "taxa_conversao": 11.11
   },
   "leads_por_dia": [
     {
@@ -190,7 +190,7 @@
     },
     {
       "data": "27/05",
-      "cpl": 105.64
+      "cpl": 105.75
     }
   ],
   "canais": [
@@ -219,14 +219,14 @@
     {
       "nome": "AD07-Não-é-o-mercado",
       "leads": 24,
-      "spend": 1574.54,
-      "cpl": 65.61
+      "spend": 1659.6,
+      "cpl": 69.15
     },
     {
       "nome": "AD00-Misto",
       "leads": 11,
-      "spend": 1392.57,
-      "cpl": 126.6
+      "spend": 1507.26,
+      "cpl": 137.02
     },
     {
       "nome": "AD09-Procura-se",
@@ -237,8 +237,8 @@
     {
       "nome": "AD06-17.04.26-Lote-0-Anuncio-2",
       "leads": 3,
-      "spend": 268.53,
-      "cpl": 89.51
+      "spend": 289.25,
+      "cpl": 96.42
     },
     {
       "nome": "AD08-Se-você-parar",
@@ -249,8 +249,20 @@
     {
       "nome": "AD04-CACAU-LOTEZERO",
       "leads": 2,
-      "spend": 114.1,
-      "cpl": 57.05
+      "spend": 114.17,
+      "cpl": 57.09
+    },
+    {
+      "nome": "AD05-17.04.26-Lote-0-Anuncio-1",
+      "leads": 1,
+      "spend": 53.93,
+      "cpl": 53.93
+    },
+    {
+      "nome": "AD03-EQUIPE-LOTEZERO",
+      "leads": 0,
+      "spend": 46.3,
+      "cpl": 0
     },
     {
       "nome": "AD01-FEEDBACK-LOTEZERO",
@@ -259,21 +271,9 @@
       "cpl": 0
     },
     {
-      "nome": "AD03-EQUIPE-LOTEZERO",
-      "leads": 0,
-      "spend": 45.93,
-      "cpl": 0
-    },
-    {
-      "nome": "AD05-17.04.26-Lote-0-Anuncio-1",
-      "leads": 1,
-      "spend": 42.27,
-      "cpl": 42.27
-    },
-    {
       "nome": "AD02-SELEÇÃO-LOTEZERO",
       "leads": 0,
-      "spend": 41.84,
+      "spend": 44.46,
       "cpl": 0
     }
   ],
@@ -288,8 +288,8 @@
       "conjunto": "00-HOT-SEGUIDORES-VV-50%-LISTAOUTBOUND",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 13,
-      "spend": 1146.78,
-      "cpl": 88.21
+      "spend": 1231.84,
+      "cpl": 94.76
     },
     {
       "tipo": "HOT",
@@ -297,8 +297,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD00-Misto",
       "leads": 9,
-      "spend": 1080.02,
-      "cpl": 120.0
+      "spend": 1159.47,
+      "cpl": 128.83
     },
     {
       "tipo": "HOT",
@@ -333,8 +333,8 @@
       "conjunto": "00-HOT-INT-Visitantes-Outbound",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 2,
-      "spend": 1574.54,
-      "cpl": 787.27
+      "spend": 1659.6,
+      "cpl": 829.8
     },
     {
       "tipo": "COLD",
@@ -360,8 +360,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD00-Misto",
       "leads": 1,
-      "spend": 29.33,
-      "cpl": 29.33
+      "spend": 29.85,
+      "cpl": 29.85
     },
     {
       "tipo": "COLD",
@@ -369,8 +369,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD00-Misto",
       "leads": 1,
-      "spend": 29.33,
-      "cpl": 29.33
+      "spend": 29.85,
+      "cpl": 29.85
     },
     {
       "tipo": "COLD",
