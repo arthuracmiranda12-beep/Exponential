@@ -5,22 +5,23 @@
     "data_evento": "28/05/2026",
     "periodo": "21/04/2026 a 27/05/2026",
     "dias_ativos": 22,
-    "atualizado_em": "01/06/2026 12:13"
+    "atualizado_em": "02/06/2026 12:14",
+    "aviso": "Dados de mídia paga (investimento, impressões, cliques) não disponíveis — aba Gerenciador sem dados numéricos na planilha exportada."
   },
   "kpis": {
-    "investimento_total": 0.0,
+    "investimento_total": 0,
     "cpl_total": 0,
     "leads_total": 54
   },
   "audiencias": {
     "hot": {
       "leads": 38,
-      "spend": 0.0,
+      "spend": 0,
       "cpl": 0
     },
     "cold": {
       "leads": 11,
-      "spend": 0.0,
+      "spend": 0,
       "cpl": 0
     }
   },
@@ -126,14 +127,14 @@
   "cpl_por_dia": [],
   "canais": [
     {
-      "canal": "Instagram",
-      "leads": 17,
-      "pct": 31.5
-    },
-    {
       "canal": "Facebook",
       "leads": 21,
       "pct": 38.9
+    },
+    {
+      "canal": "Instagram",
+      "leads": 17,
+      "pct": 31.5
     },
     {
       "canal": "Audience Network",
@@ -153,9 +154,57 @@
   ],
   "criativos": [
     {
-      "nome": "Desconhecido",
-      "leads": 0,
-      "spend": 0.0,
+      "nome": "AD07-Não-é-o-mercado",
+      "leads": 24,
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "nome": "AD00-Misto",
+      "leads": 11,
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "nome": "AD08-Se-você-parar",
+      "leads": 4,
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "nome": "AD09-Procura-se",
+      "leads": 4,
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "nome": "AD06-17.04.26-Lote-0-Anuncio-2",
+      "leads": 3,
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "nome": "AD04-CACAU-LOTEZERO",
+      "leads": 2,
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "nome": "AD05-17.04.26-Lote-0-Anuncio-1",
+      "leads": 1,
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "nome": "6954887569502.0",
+      "leads": 1,
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "nome": "link_in_bio",
+      "leads": 1,
+      "spend": 0,
       "cpl": 0
     }
   ],
@@ -170,8 +219,8 @@
       "conjunto": "00-HOT-SEGUIDORES-VV-50%-LISTAOUTBOUND",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 13,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -179,8 +228,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD00-Misto",
       "leads": 9,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -188,8 +237,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 6,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "OUTRO",
@@ -197,8 +246,8 @@
       "conjunto": "",
       "criativo": "",
       "leads": 3,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "COLD",
@@ -206,8 +255,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 2,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -215,8 +264,8 @@
       "conjunto": "00-HOT-INT-Visitantes-Outbound",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 2,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "COLD",
@@ -224,8 +273,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD06-17.04.26-Lote-0-Anuncio-2",
       "leads": 2,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -233,8 +282,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD09-Procura-se",
       "leads": 2,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "COLD",
@@ -242,8 +291,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD00-Misto",
       "leads": 1,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "COLD",
@@ -251,8 +300,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD00-Misto",
       "leads": 1,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "COLD",
@@ -260,8 +309,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD06-17.04.26-Lote-0-Anuncio-2",
       "leads": 1,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -269,8 +318,8 @@
       "conjunto": "00-HOT-INT-Visitantes-Outbound",
       "criativo": "AD08-Se-você-parar",
       "leads": 1,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "COLD",
@@ -278,8 +327,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD08-Se-você-parar",
       "leads": 1,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "COLD",
@@ -287,8 +336,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD09-Procura-se",
       "leads": 1,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "COLD",
@@ -296,8 +345,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD08-Se-você-parar",
       "leads": 1,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "COLD",
@@ -305,8 +354,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD05-17.04.26-Lote-0-Anuncio-1",
       "leads": 1,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -314,8 +363,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD08-Se-você-parar",
       "leads": 1,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -323,8 +372,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 1,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "OUTRO",
@@ -332,8 +381,8 @@
       "conjunto": "paid",
       "criativo": "6954887569502.0",
       "leads": 1,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -341,8 +390,8 @@
       "conjunto": "00-HOT-SEGUIDORES-VV-50%-LISTAOUTBOUND",
       "criativo": "AD09-Procura-se",
       "leads": 1,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "OUTRO",
@@ -350,8 +399,8 @@
       "conjunto": "social",
       "criativo": "link_in_bio",
       "leads": 1,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -359,8 +408,8 @@
       "conjunto": "00-HOT-SEGUIDORES-VV-50%-LISTAOUTBOUND",
       "criativo": "AD04-CACAU-LOTEZERO",
       "leads": 1,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -368,8 +417,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD04-CACAU-LOTEZERO",
       "leads": 1,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     }
   ]
 }
