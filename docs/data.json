@@ -5,13 +5,12 @@
     "data_evento": "28/05/2026",
     "periodo": "21/04/2026 a 27/05/2026",
     "dias_ativos": 22,
-    "atualizado_em": "02/06/2026 12:14",
-    "aviso": "Dados de mídia paga (investimento, impressões, cliques) não disponíveis — aba Gerenciador sem dados numéricos na planilha exportada."
+    "atualizado_em": "03/06/2026 12:12"
   },
   "kpis": {
     "investimento_total": 0,
     "cpl_total": 0,
-    "leads_total": 54
+    "leads_total": 53
   },
   "audiencias": {
     "hot": {
@@ -29,7 +28,7 @@
     "impressoes": 0,
     "cliques": 0,
     "page_views": 0,
-    "leads": 54,
+    "leads": 53,
     "ctr": 0,
     "connect_rate": 0,
     "taxa_conversao": 0
@@ -45,7 +44,7 @@
     },
     {
       "data": "24/04",
-      "leads": 3
+      "leads": 2
     },
     {
       "data": "25/04",
@@ -127,29 +126,24 @@
   "cpl_por_dia": [],
   "canais": [
     {
-      "canal": "Facebook",
-      "leads": 21,
-      "pct": 38.9
-    },
-    {
       "canal": "Instagram",
       "leads": 17,
-      "pct": 31.5
+      "pct": 32.1
+    },
+    {
+      "canal": "Facebook",
+      "leads": 21,
+      "pct": 39.6
     },
     {
       "canal": "Audience Network",
       "leads": 12,
-      "pct": 22.2
-    },
-    {
-      "canal": "Threads",
-      "leads": 1,
-      "pct": 1.9
+      "pct": 22.6
     },
     {
       "canal": "Sem rastreio",
-      "leads": 3,
-      "pct": 5.6
+      "leads": 2,
+      "pct": 3.8
     }
   ],
   "criativos": [
@@ -241,15 +235,6 @@
       "cpl": 0
     },
     {
-      "tipo": "OUTRO",
-      "campanha": "",
-      "conjunto": "",
-      "criativo": "",
-      "leads": 3,
-      "spend": 0,
-      "cpl": 0
-    },
-    {
       "tipo": "COLD",
       "campanha": "COR-B-LOTE0IMERSAO-LEADS-COLD-INT-SUL-SUDESTE-VD-FEED-STORIES-P1-2026-04-18",
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
@@ -263,6 +248,15 @@
       "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-FEED-STORIES-P1-2026-04-23",
       "conjunto": "00-HOT-INT-Visitantes-Outbound",
       "criativo": "AD07-Não-é-o-mercado",
+      "leads": 2,
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "tipo": "OUTRO",
+      "campanha": "",
+      "conjunto": "",
+      "criativo": "",
       "leads": 2,
       "spend": 0,
       "cpl": 0
