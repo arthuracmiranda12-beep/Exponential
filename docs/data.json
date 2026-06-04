@@ -5,30 +5,30 @@
     "data_evento": "28/05/2026",
     "periodo": "21/04/2026 a 27/05/2026",
     "dias_ativos": 22,
-    "atualizado_em": "03/06/2026 12:12"
+    "atualizado_em": "04/06/2026 12:11"
   },
   "kpis": {
-    "investimento_total": 0,
-    "cpl_total": 0,
-    "leads_total": 53
+    "investimento_total": 0.0,
+    "cpl_total": 0.0,
+    "leads_total": 54
   },
   "audiencias": {
     "hot": {
       "leads": 38,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     "cold": {
       "leads": 11,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     }
   },
   "funil": {
     "impressoes": 0,
     "cliques": 0,
     "page_views": 0,
-    "leads": 53,
+    "leads": 54,
     "ctr": 0,
     "connect_rate": 0,
     "taxa_conversao": 0
@@ -44,7 +44,7 @@
     },
     {
       "data": "24/04",
-      "leads": 2
+      "leads": 3
     },
     {
       "data": "25/04",
@@ -128,22 +128,27 @@
     {
       "canal": "Instagram",
       "leads": 17,
-      "pct": 32.1
+      "pct": 31.5
     },
     {
       "canal": "Facebook",
       "leads": 21,
-      "pct": 39.6
+      "pct": 38.9
     },
     {
       "canal": "Audience Network",
       "leads": 12,
-      "pct": 22.6
+      "pct": 22.2
+    },
+    {
+      "canal": "Threads",
+      "leads": 1,
+      "pct": 1.9
     },
     {
       "canal": "Sem rastreio",
-      "leads": 2,
-      "pct": 3.8
+      "leads": 3,
+      "pct": 5.6
     }
   ],
   "criativos": [
@@ -213,8 +218,8 @@
       "conjunto": "00-HOT-SEGUIDORES-VV-50%-LISTAOUTBOUND",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 13,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "HOT",
@@ -222,8 +227,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD00-Misto",
       "leads": 9,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "HOT",
@@ -231,8 +236,17 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 6,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
+    },
+    {
+      "tipo": "OUTRO",
+      "campanha": "",
+      "conjunto": "",
+      "criativo": "",
+      "leads": 3,
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "COLD",
@@ -240,8 +254,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 2,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "HOT",
@@ -249,17 +263,8 @@
       "conjunto": "00-HOT-INT-Visitantes-Outbound",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 2,
-      "spend": 0,
-      "cpl": 0
-    },
-    {
-      "tipo": "OUTRO",
-      "campanha": "",
-      "conjunto": "",
-      "criativo": "",
-      "leads": 2,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "COLD",
@@ -267,8 +272,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD06-17.04.26-Lote-0-Anuncio-2",
       "leads": 2,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "HOT",
@@ -276,8 +281,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD09-Procura-se",
       "leads": 2,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "COLD",
@@ -285,8 +290,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD00-Misto",
       "leads": 1,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "COLD",
@@ -294,8 +299,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD00-Misto",
       "leads": 1,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "COLD",
@@ -303,8 +308,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD06-17.04.26-Lote-0-Anuncio-2",
       "leads": 1,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "HOT",
@@ -312,8 +317,8 @@
       "conjunto": "00-HOT-INT-Visitantes-Outbound",
       "criativo": "AD08-Se-você-parar",
       "leads": 1,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "COLD",
@@ -321,8 +326,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD08-Se-você-parar",
       "leads": 1,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "COLD",
@@ -330,8 +335,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD09-Procura-se",
       "leads": 1,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "COLD",
@@ -339,8 +344,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD08-Se-você-parar",
       "leads": 1,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "COLD",
@@ -348,8 +353,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD05-17.04.26-Lote-0-Anuncio-1",
       "leads": 1,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "HOT",
@@ -357,8 +362,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD08-Se-você-parar",
       "leads": 1,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "HOT",
@@ -366,8 +371,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 1,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "OUTRO",
@@ -375,8 +380,8 @@
       "conjunto": "paid",
       "criativo": "6954887569502.0",
       "leads": 1,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "HOT",
@@ -384,8 +389,8 @@
       "conjunto": "00-HOT-SEGUIDORES-VV-50%-LISTAOUTBOUND",
       "criativo": "AD09-Procura-se",
       "leads": 1,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "OUTRO",
@@ -393,8 +398,8 @@
       "conjunto": "social",
       "criativo": "link_in_bio",
       "leads": 1,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "HOT",
@@ -402,8 +407,8 @@
       "conjunto": "00-HOT-SEGUIDORES-VV-50%-LISTAOUTBOUND",
       "criativo": "AD04-CACAU-LOTEZERO",
       "leads": 1,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     },
     {
       "tipo": "HOT",
@@ -411,8 +416,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD04-CACAU-LOTEZERO",
       "leads": 1,
-      "spend": 0,
-      "cpl": 0
+      "spend": 0.0,
+      "cpl": 0.0
     }
   ]
 }
