@@ -1,26 +1,26 @@
 {
   "meta": {
-    "evento": "Lote0 Imersao",
+    "evento": "Lote0 Imersão",
     "cliente": "Ricardo Mello",
     "data_evento": "28/05/2026",
     "periodo": "21/04/2026 a 27/05/2026",
     "dias_ativos": 22,
-    "atualizado_em": "07/06/2026 12:06"
+    "atualizado_em": "08/06/2026 12:07"
   },
   "kpis": {
-    "investimento_total": 0.0,
+    "investimento_total": 0,
     "cpl_total": 0,
     "leads_total": 54
   },
   "audiencias": {
     "hot": {
       "leads": 38,
-      "spend": 0.0,
+      "spend": 0,
       "cpl": 0
     },
     "cold": {
       "leads": 11,
-      "spend": 0.0,
+      "spend": 0,
       "cpl": 0
     }
   },
