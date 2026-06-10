@@ -1,25 +1,27 @@
 {
   "meta": {
-    "evento": "Lote0 Imersao",
+    "evento": "Lote0 Imersão",
     "cliente": "Ricardo Mello",
     "data_evento": "28/05/2026",
-    "periodo": "21/04/2026 a 27/05/2026",
-    "dias_ativos": 22,
-    "atualizado_em": "09/06/2026 12:07"
+    "periodo": "21/04/2026 a 06/06/2026",
+    "dias_ativos": 30,
+    "atualizado_em": "10/06/2026 12:09",
+    "fonte_leads": "Backup (IMPORTRANGE completo)",
+    "aviso_financeiro": "Gerenciador sem dados — CPL indisponível neste ciclo"
   },
   "kpis": {
     "investimento_total": 0.0,
     "cpl_total": 0,
-    "leads_total": 54
+    "leads_total": 64
   },
   "audiencias": {
     "hot": {
-      "leads": 38,
+      "leads": 42,
       "spend": 0.0,
       "cpl": 0
     },
     "cold": {
-      "leads": 11,
+      "leads": 12,
       "spend": 0.0,
       "cpl": 0
     }
@@ -28,7 +30,7 @@
     "impressoes": 0,
     "cliques": 0,
     "page_views": 0,
-    "leads": 54,
+    "leads": 64,
     "ctr": 0,
     "connect_rate": 0,
     "taxa_conversao": 0
@@ -36,6 +38,10 @@
   "leads_por_dia": [
     {
       "data": "21/04",
+      "leads": 1
+    },
+    {
+      "data": "22/04",
       "leads": 1
     },
     {
@@ -53,6 +59,10 @@
     {
       "data": "26/04",
       "leads": 3
+    },
+    {
+      "data": "06/05",
+      "leads": 1
     },
     {
       "data": "07/05",
@@ -121,85 +131,120 @@
     {
       "data": "27/05",
       "leads": 2
+    },
+    {
+      "data": "28/05",
+      "leads": 1
+    },
+    {
+      "data": "29/05",
+      "leads": 1
+    },
+    {
+      "data": "30/05",
+      "leads": 2
+    },
+    {
+      "data": "01/06",
+      "leads": 2
+    },
+    {
+      "data": "03/06",
+      "leads": 1
+    },
+    {
+      "data": "06/06",
+      "leads": 1
     }
   ],
   "cpl_por_dia": [],
   "canais": [
     {
-      "canal": "Instagram",
-      "leads": 17,
-      "pct": 31.5
+      "canal": "Facebook",
+      "leads": 22,
+      "pct": 34.4
     },
     {
-      "canal": "Facebook",
-      "leads": 21,
-      "pct": 38.9
+      "canal": "Instagram",
+      "leads": 18,
+      "pct": 28.1
     },
     {
       "canal": "Audience Network",
-      "leads": 12,
-      "pct": 22.2
+      "leads": 15,
+      "pct": 23.4
+    },
+    {
+      "canal": "Threads",
+      "leads": 1,
+      "pct": 1.6
     },
     {
       "canal": "Sem rastreio",
-      "leads": 3,
-      "pct": 5.6
+      "leads": 8,
+      "pct": 12.5
     }
   ],
   "criativos": [
     {
       "nome": "AD07-Não-é-o-mercado",
-      "leads": 24,
+      "leads": 26,
       "spend": 0.0,
-      "cpl": 0.0
+      "cpl": 0
     },
     {
       "nome": "AD00-Misto",
-      "leads": 11,
+      "leads": 14,
       "spend": 0.0,
-      "cpl": 0.0
+      "cpl": 0
     },
     {
       "nome": "AD08-Se-você-parar",
       "leads": 4,
       "spend": 0.0,
-      "cpl": 0.0
+      "cpl": 0
     },
     {
       "nome": "AD09-Procura-se",
       "leads": 4,
       "spend": 0.0,
-      "cpl": 0.0
+      "cpl": 0
     },
     {
       "nome": "AD06-17.04.26-Lote-0-Anuncio-2",
       "leads": 3,
       "spend": 0.0,
-      "cpl": 0.0
+      "cpl": 0
     },
     {
       "nome": "AD04-CACAU-LOTEZERO",
       "leads": 2,
       "spend": 0.0,
-      "cpl": 0.0
+      "cpl": 0
     },
     {
       "nome": "AD05-17.04.26-Lote-0-Anuncio-1",
       "leads": 1,
       "spend": 0.0,
-      "cpl": 0.0
+      "cpl": 0
     },
     {
       "nome": "6954887569502.0",
       "leads": 1,
       "spend": 0.0,
-      "cpl": 0.0
+      "cpl": 0
     },
     {
       "nome": "link_in_bio",
       "leads": 1,
       "spend": 0.0,
-      "cpl": 0.0
+      "cpl": 0
+    },
+    {
+      "nome": "Desconhecido",
+      "leads": 0,
+      "spend": 0.0,
+      "cpl": 0
     }
   ],
   "segmentacao": {
@@ -212,7 +257,7 @@
       "campanha": "COR-B-LOTE0IMERSAO-LEADS-HOT-BRASIL-VD-IMG-FEED-STORIES-P1-2026-05-07",
       "conjunto": "00-HOT-SEGUIDORES-VV-50%-LISTAOUTBOUND",
       "criativo": "AD07-Não-é-o-mercado",
-      "leads": 13,
+      "leads": 15,
       "spend": 0.0,
       "cpl": 0.0
     },
@@ -221,7 +266,16 @@
       "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-IMG-FEED-STORIES-P1-2026-05-07",
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD00-Misto",
-      "leads": 9,
+      "leads": 10,
+      "spend": 0.0,
+      "cpl": 0.0
+    },
+    {
+      "tipo": "OUTRO",
+      "campanha": "",
+      "conjunto": "",
+      "criativo": "",
+      "leads": 8,
       "spend": 0.0,
       "cpl": 0.0
     },
@@ -235,11 +289,11 @@
       "cpl": 0.0
     },
     {
-      "tipo": "OUTRO",
-      "campanha": "",
-      "conjunto": "",
-      "criativo": "",
-      "leads": 3,
+      "tipo": "COLD",
+      "campanha": "COR-B-LOTE0IMERSAO-LEADS-COLD-INT-SUL-VD-FEED-STORIES-P1-2026-04-18",
+      "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
+      "criativo": "AD00-Misto",
+      "leads": 2,
       "spend": 0.0,
       "cpl": 0.0
     },
@@ -276,15 +330,6 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD09-Procura-se",
       "leads": 2,
-      "spend": 0.0,
-      "cpl": 0.0
-    },
-    {
-      "tipo": "COLD",
-      "campanha": "COR-B-LOTE0IMERSAO-LEADS-COLD-INT-SUL-VD-FEED-STORIES-P1-2026-04-18",
-      "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
-      "criativo": "AD00-Misto",
-      "leads": 1,
       "spend": 0.0,
       "cpl": 0.0
     },
@@ -410,6 +455,15 @@
       "campanha": "COR-A-LOTE0IMERSAO-LEADS-HOT-INT-SUL-SUDESTE-VD-IMG-FEED-STORIES-P1-2026-05-07",
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD04-CACAU-LOTEZERO",
+      "leads": 1,
+      "spend": 0.0,
+      "cpl": 0.0
+    },
+    {
+      "tipo": "HOT",
+      "campanha": "COR-A-LOTE0IMERSAO-V2-LEADS-HOT-BRASIL-VD-IMG-FEED-STORIES-P1-2026-05-18",
+      "conjunto": "00-HOT-SEGUIDORES-VV-50%-LISTAOUTBOUND",
+      "criativo": "AD00-Misto",
       "leads": 1,
       "spend": 0.0,
       "cpl": 0.0
