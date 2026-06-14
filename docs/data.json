@@ -5,22 +5,22 @@
     "data_evento": "28/05/2026",
     "periodo": "21/04/2026 a 27/05/2026",
     "dias_ativos": 22,
-    "atualizado_em": "13/06/2026 12:05"
+    "atualizado_em": "14/06/2026 12:05"
   },
   "kpis": {
-    "investimento_total": 0.0,
+    "investimento_total": 0,
     "cpl_total": 0,
     "leads_total": 54
   },
   "audiencias": {
     "hot": {
       "leads": 38,
-      "spend": 0.0,
+      "spend": 0,
       "cpl": 0
     },
     "cold": {
       "leads": 11,
-      "spend": 0.0,
+      "spend": 0,
       "cpl": 0
     }
   },
