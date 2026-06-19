@@ -5,7 +5,7 @@
     "data_evento": "28/05/2026",
     "periodo": "21/04/2026 a 27/05/2026",
     "dias_ativos": 22,
-    "atualizado_em": "18/06/2026 12:05"
+    "atualizado_em": "19/06/2026 12:05"
   },
   "kpis": {
     "investimento_total": 0.0,
@@ -141,6 +141,11 @@
       "pct": 22.2
     },
     {
+      "canal": "th",
+      "leads": 1,
+      "pct": 1.9
+    },
+    {
       "canal": "Sem rastreio",
       "leads": 3,
       "pct": 5.6
@@ -148,9 +153,57 @@
   ],
   "criativos": [
     {
-      "nome": "Desconhecido",
-      "leads": 0,
-      "spend": 0.0,
+      "nome": "AD07-Não-é-o-mercado",
+      "leads": 24,
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "nome": "AD00-Misto",
+      "leads": 11,
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "nome": "AD08-Se-você-parar",
+      "leads": 4,
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "nome": "AD09-Procura-se",
+      "leads": 4,
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "nome": "AD06-17.04.26-Lote-0-Anuncio-2",
+      "leads": 3,
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "nome": "AD04-CACAU-LOTEZERO",
+      "leads": 2,
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "nome": "AD05-17.04.26-Lote-0-Anuncio-1",
+      "leads": 1,
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "nome": "6954887569502.0",
+      "leads": 1,
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "nome": "link_in_bio",
+      "leads": 1,
+      "spend": 0,
       "cpl": 0
     }
   ],
