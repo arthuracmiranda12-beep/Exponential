@@ -1,37 +1,37 @@
 {
   "meta": {
-    "evento": "Lote0 Imersão",
+    "evento": "Lote0 Imersao",
     "cliente": "Ricardo Mello",
     "data_evento": "28/05/2026",
     "periodo": "21/04/2026 a 27/05/2026",
     "dias_ativos": 22,
-    "atualizado_em": "21/06/2026 12:07"
+    "atualizado_em": "22/06/2026 12:05"
   },
   "kpis": {
-    "investimento_total": 6245.52,
-    "cpl_total": 115.66,
+    "investimento_total": 0.0,
+    "cpl_total": 0,
     "leads_total": 54
   },
   "audiencias": {
     "hot": {
       "leads": 38,
-      "spend": 4895.59,
-      "cpl": 128.83
+      "spend": 0.0,
+      "cpl": 0
     },
     "cold": {
       "leads": 11,
-      "spend": 1349.93,
-      "cpl": 122.72
+      "spend": 0.0,
+      "cpl": 0
     }
   },
   "funil": {
-    "impressoes": 32646,
-    "cliques": 1904,
-    "page_views": 1332,
+    "impressoes": 0,
+    "cliques": 0,
+    "page_views": 0,
     "leads": 54,
-    "ctr": 5.83,
-    "connect_rate": 69.96,
-    "taxa_conversao": 4.05
+    "ctr": 0.0,
+    "connect_rate": 0.0,
+    "taxa_conversao": 0.0
   },
   "leads_por_dia": [
     {
@@ -123,116 +123,22 @@
       "leads": 2
     }
   ],
-  "cpl_por_dia": [
-    {
-      "data": "21/04",
-      "cpl": 115.66
-    },
-    {
-      "data": "23/04",
-      "cpl": 115.66
-    },
-    {
-      "data": "24/04",
-      "cpl": 115.66
-    },
-    {
-      "data": "25/04",
-      "cpl": 115.66
-    },
-    {
-      "data": "26/04",
-      "cpl": 115.66
-    },
-    {
-      "data": "07/05",
-      "cpl": 115.66
-    },
-    {
-      "data": "08/05",
-      "cpl": 115.66
-    },
-    {
-      "data": "09/05",
-      "cpl": 115.66
-    },
-    {
-      "data": "10/05",
-      "cpl": 115.66
-    },
-    {
-      "data": "11/05",
-      "cpl": 115.66
-    },
-    {
-      "data": "12/05",
-      "cpl": 115.66
-    },
-    {
-      "data": "13/05",
-      "cpl": 115.66
-    },
-    {
-      "data": "15/05",
-      "cpl": 115.66
-    },
-    {
-      "data": "17/05",
-      "cpl": 115.66
-    },
-    {
-      "data": "19/05",
-      "cpl": 115.66
-    },
-    {
-      "data": "20/05",
-      "cpl": 115.66
-    },
-    {
-      "data": "21/05",
-      "cpl": 115.66
-    },
-    {
-      "data": "22/05",
-      "cpl": 115.66
-    },
-    {
-      "data": "24/05",
-      "cpl": 115.66
-    },
-    {
-      "data": "25/05",
-      "cpl": 115.66
-    },
-    {
-      "data": "26/05",
-      "cpl": 115.66
-    },
-    {
-      "data": "27/05",
-      "cpl": 115.66
-    }
-  ],
+  "cpl_por_dia": [],
   "canais": [
-    {
-      "canal": "Facebook",
-      "leads": 21,
-      "pct": 38.9
-    },
     {
       "canal": "Instagram",
       "leads": 17,
       "pct": 31.5
     },
     {
+      "canal": "Facebook",
+      "leads": 21,
+      "pct": 38.9
+    },
+    {
       "canal": "Audience Network",
       "leads": 12,
       "pct": 22.2
-    },
-    {
-      "canal": "Threads",
-      "leads": 1,
-      "pct": 1.9
     },
     {
       "canal": "Sem rastreio",
@@ -244,61 +150,55 @@
     {
       "nome": "AD07-Não-é-o-mercado",
       "leads": 24,
-      "spend": 2035.51,
-      "cpl": 84.81
+      "spend": 0,
+      "cpl": 0
     },
     {
       "nome": "AD00-Misto",
       "leads": 11,
-      "spend": 1898.9,
-      "cpl": 172.63
-    },
-    {
-      "nome": "AD09-Procura-se",
-      "leads": 4,
-      "spend": 500.98,
-      "cpl": 125.25
+      "spend": 0,
+      "cpl": 0
     },
     {
       "nome": "AD08-Se-você-parar",
       "leads": 4,
-      "spend": 493.43,
-      "cpl": 123.36
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "nome": "AD09-Procura-se",
+      "leads": 4,
+      "spend": 0,
+      "cpl": 0
     },
     {
       "nome": "AD06-17.04.26-Lote-0-Anuncio-2",
       "leads": 3,
-      "spend": 390.24,
-      "cpl": 130.08
-    },
-    {
-      "nome": "AD03-EQUIPE-LOTEZERO",
-      "leads": 0,
-      "spend": 300.46,
+      "spend": 0,
       "cpl": 0
     },
     {
       "nome": "AD04-CACAU-LOTEZERO",
       "leads": 2,
-      "spend": 197.2,
-      "cpl": 98.6
-    },
-    {
-      "nome": "AD02-SELEÇÃO-LOTEZERO",
-      "leads": 0,
-      "spend": 194.77,
+      "spend": 0,
       "cpl": 0
     },
     {
       "nome": "AD05-17.04.26-Lote-0-Anuncio-1",
       "leads": 1,
-      "spend": 145.0,
-      "cpl": 145.0
+      "spend": 0,
+      "cpl": 0
     },
     {
-      "nome": "AD01-FEEDBACK-LOTEZERO",
-      "leads": 0,
-      "spend": 140.27,
+      "nome": "6954887569502.0",
+      "leads": 1,
+      "spend": 0,
+      "cpl": 0
+    },
+    {
+      "nome": "link_in_bio",
+      "leads": 1,
+      "spend": 0,
       "cpl": 0
     }
   ],
@@ -313,8 +213,8 @@
       "conjunto": "00-HOT-SEGUIDORES-VV-50%-LISTAOUTBOUND",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 13,
-      "spend": 2035.51,
-      "cpl": 156.58
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -322,8 +222,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD00-Misto",
       "leads": 9,
-      "spend": 1898.9,
-      "cpl": 210.99
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -331,8 +231,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 6,
-      "spend": 2035.51,
-      "cpl": 339.25
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "OUTRO",
@@ -340,8 +240,8 @@
       "conjunto": "",
       "criativo": "",
       "leads": 3,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "COLD",
@@ -349,8 +249,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 2,
-      "spend": 2035.51,
-      "cpl": 1017.75
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -358,8 +258,8 @@
       "conjunto": "00-HOT-INT-Visitantes-Outbound",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 2,
-      "spend": 2035.51,
-      "cpl": 1017.75
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "COLD",
@@ -367,8 +267,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD06-17.04.26-Lote-0-Anuncio-2",
       "leads": 2,
-      "spend": 390.24,
-      "cpl": 195.12
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -376,8 +276,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD09-Procura-se",
       "leads": 2,
-      "spend": 500.98,
-      "cpl": 250.49
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "COLD",
@@ -385,8 +285,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD00-Misto",
       "leads": 1,
-      "spend": 1898.9,
-      "cpl": 1898.9
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "COLD",
@@ -394,8 +294,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD00-Misto",
       "leads": 1,
-      "spend": 1898.9,
-      "cpl": 1898.9
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "COLD",
@@ -403,8 +303,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD06-17.04.26-Lote-0-Anuncio-2",
       "leads": 1,
-      "spend": 390.24,
-      "cpl": 390.24
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -412,8 +312,8 @@
       "conjunto": "00-HOT-INT-Visitantes-Outbound",
       "criativo": "AD08-Se-você-parar",
       "leads": 1,
-      "spend": 493.43,
-      "cpl": 493.43
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "COLD",
@@ -421,8 +321,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD08-Se-você-parar",
       "leads": 1,
-      "spend": 493.43,
-      "cpl": 493.43
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "COLD",
@@ -430,8 +330,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD09-Procura-se",
       "leads": 1,
-      "spend": 500.98,
-      "cpl": 500.98
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "COLD",
@@ -439,8 +339,8 @@
       "conjunto": "00-COLD-INT-Comportamento-de-dono-de-empresa",
       "criativo": "AD08-Se-você-parar",
       "leads": 1,
-      "spend": 493.43,
-      "cpl": 493.43
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "COLD",
@@ -448,8 +348,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD05-17.04.26-Lote-0-Anuncio-1",
       "leads": 1,
-      "spend": 145.0,
-      "cpl": 145.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -457,8 +357,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD08-Se-você-parar",
       "leads": 1,
-      "spend": 493.43,
-      "cpl": 493.43
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -466,8 +366,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD07-Não-é-o-mercado",
       "leads": 1,
-      "spend": 2035.51,
-      "cpl": 2035.51
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "OUTRO",
@@ -475,8 +375,8 @@
       "conjunto": "paid",
       "criativo": "6954887569502.0",
       "leads": 1,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -484,8 +384,8 @@
       "conjunto": "00-HOT-SEGUIDORES-VV-50%-LISTAOUTBOUND",
       "criativo": "AD09-Procura-se",
       "leads": 1,
-      "spend": 500.98,
-      "cpl": 500.98
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "OUTRO",
@@ -493,8 +393,8 @@
       "conjunto": "social",
       "criativo": "link_in_bio",
       "leads": 1,
-      "spend": 0.0,
-      "cpl": 0.0
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -502,8 +402,8 @@
       "conjunto": "00-HOT-SEGUIDORES-VV-50%-LISTAOUTBOUND",
       "criativo": "AD04-CACAU-LOTEZERO",
       "leads": 1,
-      "spend": 197.2,
-      "cpl": 197.2
+      "spend": 0,
+      "cpl": 0
     },
     {
       "tipo": "HOT",
@@ -511,8 +411,8 @@
       "conjunto": "00-COLD-INT-Dores-de-gestao",
       "criativo": "AD04-CACAU-LOTEZERO",
       "leads": 1,
-      "spend": 197.2,
-      "cpl": 197.2
+      "spend": 0,
+      "cpl": 0
     }
   ]
 }
